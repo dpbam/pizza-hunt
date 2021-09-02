@@ -39,6 +39,7 @@ const commentController = {
             .catch(err => res.json(err));
     },
     
+    // delete reply, delete route
     removeReply({ params }, res) {
         Comment.findOneAndUpdate(
             { _id: params.commentId },

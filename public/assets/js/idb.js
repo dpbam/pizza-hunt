@@ -1,4 +1,4 @@
-const { response } = require("express");
+// const { response } = require("express");
 
 // create a variable to hold db connection
 let db;

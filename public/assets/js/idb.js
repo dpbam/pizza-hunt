@@ -61,7 +61,7 @@ function uploadPizza() {
                 body: JSON.stringify(getAll.result),
                 headers: {
                     Accept:
-                        Accept: 'application/json, text/plain, */*',
+                        'application/json, text/plain, */*',
                         'Content-Type': 'application/json'
                 }
             })
